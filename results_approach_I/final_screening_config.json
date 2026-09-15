@@ -1,0 +1,38 @@
+{
+  "seed": 8,
+  "device": "cpu",
+  "chemberta_name": "DeepChem/ChemBERTa-77M-MTR",
+  "max_length": 128,
+  "target": "affinity_probability_binary",
+  "winner_initial_representation": "ChemBERTa_frozen",
+  "best_optuna_value": 0.007063779514282942,
+  "best_params": {
+    "n_layers": 4,
+    "units_0": 64,
+    "activation_0": "ReLU",
+    "dropout_0": 0.22610628669928964,
+    "units_1": 256,
+    "activation_1": "GELU",
+    "dropout_1": 0.04140690183741801,
+    "units_2": 256,
+    "activation_2": "SiLU",
+    "dropout_2": 0.32502709958437015,
+    "units_3": 32,
+    "activation_3": "Tanh",
+    "dropout_3": 0.0864296357957853,
+    "lr": 0.0015210535619097983,
+    "weight_decay": 0.0005142576165496046
+  },
+  "metrics": {
+    "MAE": 0.04665566716964046,
+    "MSE": 0.003917046454052418,
+    "RMSE": 0.06258631203428125,
+    "R2": 0.2777223031642323,
+    "Pearson_r": 0.5966596680097991,
+    "Pearson_p": 7.615595054988232e-06,
+    "Spearman_rho": 0.6702127659574468,
+    "Spearman_p": 1.882046816366921e-07,
+    "target": "probability",
+    "method": "FINAL_ChemBERTa_frozen"
+  }
+}
