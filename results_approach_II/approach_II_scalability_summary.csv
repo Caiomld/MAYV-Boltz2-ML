@@ -1,0 +1,7 @@
+quantity,value
+Large library size,460160.0
+Top-10k,10000.0
+Top-1k,1000.0
+Reduction to Top-1k,460.16
+ML runtime (s),2048.7695317000034
+ML throughput (mol/s),224.60310585455358
